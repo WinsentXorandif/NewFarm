@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ccfded1534cee94e9c25f6c4b9d4142, type: 3}
+  m_Name: PlantData
+  m_EditorClassIdentifier: 
+  allPlantData:
+    plantList:
+    - namePlant: 0
+      growthTime: 20
+      experience: 0
+      smollPlant: {fileID: 6235272257904290366, guid: 6eb1f9060a809864fb964dacb575887a, type: 3}
+      bigPlant: {fileID: 5696306530719097319, guid: 53dc8a98c70498c4b8ace9a7906f3ae8, type: 3}
+    - namePlant: 1
+      growthTime: 10
+      experience: 10
+      smollPlant: {fileID: 1014653499837427893, guid: f37b67e206c45514c8b14f0ddf413647, type: 3}
+      bigPlant: {fileID: 3647403206152582692, guid: a2d712d5f14c4624d8705b2b7ba9131d, type: 3}
+    - namePlant: 2
+      growthTime: 5
+      experience: 0
+      smollPlant: {fileID: 6000909200954652796, guid: e3e05494e0e7c004a84f4b7268d0253e, type: 3}
+      bigPlant: {fileID: 4127652833764403184, guid: 0fcd8a72c83cf70449b2fca9a966f21d, type: 3}
