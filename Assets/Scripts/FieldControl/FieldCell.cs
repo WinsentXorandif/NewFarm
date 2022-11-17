@@ -24,9 +24,8 @@ public class FieldCell : MonoBehaviour, IFieldCell
     private void CreatePlantMenu()
     {
         pMenu = Instantiate(plantMenu, posMenu, Quaternion.identity);
-        pMenu.transform.parent = transform;
-
         pMenu.GetComponentInChildren<PlantButtonsControl>().InitField(fieldControl, this);
+        pMenu.transform.parent = transform;
 
     }
 
